@@ -1,0 +1,9 @@
+streamlit
+fastapi
+uvicorn
+phonenumbers
+email-validator
+pydantic
+langchain
+google-generativeai
+
