@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from model import Contact
-from extractor import gemini_extract_contact
+from app.model import Contact
+from app.extractor import gemini_extract_contact
 
 app = FastAPI(title="Contact Extractor API")
 
