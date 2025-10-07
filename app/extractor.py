@@ -1,6 +1,9 @@
 import re
 import phonenumbers
 from email_validator import validate_email, EmailNotValidError
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from model import Contact
 
 def gemini_extract_contact(text: str):
